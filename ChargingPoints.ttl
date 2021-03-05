@@ -7,11 +7,6 @@
 @prefix vCard:   <http://www.w3.org/2001/vcard-rdf/3.0#> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
 
-mv:Country
-	a rdfs:Class , owl:Class ;
-	rdfs:comment "A country is a region identified as a distinct entity in political geography." ;
-	rdfs:isDefinedBy <https://en.wikipedia.org/wiki/Country> 
-	rdfs:label "Country"@en , "Land"@de .
 
 
 mv:Country2
